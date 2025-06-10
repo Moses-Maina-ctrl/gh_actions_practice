@@ -13,7 +13,7 @@ jobs:
             - name: install dependencies
               run: npm ci
             - name: Run linter
-              run : npm lint
+              run : npm run lint
             - name: Show  message
               run: echo "Lint successful"
 
